@@ -17,6 +17,7 @@
 
 * Added support for setting the `subPath` on Kubernetes sessions using `KubernetesPersistentVolumeClaim` mounts in `/etc/rstudio/launcher-mounts` (Pro #2976).
 * Fixed custom shortcuts not appearing correctly in menus (#9915)
+* Fixed header scrolling in data viewer tables not following table contents in unfocused windows (#8208)
 
 ### Misc
 
